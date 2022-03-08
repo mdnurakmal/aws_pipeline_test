@@ -19,4 +19,4 @@ phases:
       - docker push mdnurakmal/aws_pipeline:latest
 
 artifacts:
-  files: imagedefinitions.json
+  files: myfilename.json
