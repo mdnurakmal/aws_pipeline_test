@@ -17,3 +17,6 @@ phases:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
       - docker push mdnurakmal/aws_pipeline:latest
+
+artifacts:
+  files: imagedefinitions.json
