@@ -8,6 +8,6 @@ RUN npm run build --prod
 FROM nginx:alpine
 ENV PORT 80
 EXPOSE 80
-COPY --from=first_image /app/dist /usr/share/nginx/html
+COPY --from=first_image /app/dist/aws_pipeline_testing /usr/share/nginx/html
 
 CMD ["nginx", "-g", "daemon off;"]

@@ -1,6 +1,6 @@
 [
     {
       "name": "test",
-      "imageUri": "docker.io/mdnurakmal/aws_pipeline:latest"
+      "imageUri": "mdnurakmal/aws_pipeline:latest"
     }
   ]
