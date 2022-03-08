@@ -1,0 +1,6 @@
+[
+    {
+      "name": "aws_pipeline",
+      "imageUri": "registry.hub.docker.com/mdnurakmal/aws_pipeline:latest"
+    }
+  ]
