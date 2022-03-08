@@ -6,7 +6,7 @@ phases:
     commands:
       - echo Logging in to Amazon ECR...
       - echo Docker username is $DOCKER_USERNAME
-      - docker login --username $DOCKER_USERNAME --password $$DOCKER_PASSWORD
+      - docker login --username $DOCKER_USERNAME --password $DOCKER_PASSWORD
   build:
     commands:
       - echo Build started on `date`
